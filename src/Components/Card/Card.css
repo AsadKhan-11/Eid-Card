@@ -1,0 +1,13 @@
+.card {
+  height: 240px;
+  width: 400px;
+  background-color: black;
+  position: relative;
+}
+
+.card-top {
+  width: 200px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 150px solid #555;
+}
