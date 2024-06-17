@@ -1,13 +1,31 @@
 .card {
   height: 240px;
   width: 400px;
-  background-color: black;
+  background-color: grey;
   position: relative;
+  border: 1px solid rgb(71, 71, 71);
 }
 
 .card-top {
-  width: 200px;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 150px solid #555;
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 150px solid rgb(94, 94, 94);
+}
+
+.btn-click {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 50%;
+  top: 45%;
+  right: 40%;
+  border: 2px solid red;
+}
+
+.btn-click:hover {
+  cursor: pointer;
+  background-color: rgb(170, 124, 39);
 }
