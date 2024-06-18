@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Playwrite SK", cursive;
   overflow: hidden;
   background: linear-gradient(to bottom right, red, yellow);
 }

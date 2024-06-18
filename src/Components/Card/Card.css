@@ -4,6 +4,9 @@
   background-color: rgb(131, 131, 131);
   position: relative;
   border: 1px solid rgb(71, 71, 71);
+  margin-top: 0px;
+  transition: margin-top 0.3s ease-out;
+  z-index: 10;
 }
 
 .card-top {
@@ -16,6 +19,7 @@
   border-right: 200px solid transparent;
   border-top-width: 150px;
   position: absolute;
+  z-index: 3;
 }
 
 .btn-click {
@@ -27,9 +31,29 @@
   top: 45%;
   right: 40%;
   border: 2px solid red;
+  z-index: 5;
 }
 
 .btn-click:hover {
   cursor: pointer;
   background-color: rgb(170, 124, 39);
+}
+
+.bakra-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: 4;
+  transition: all 2s;
+  position: absolute;
+}
+
+.eid-txt {
+  position: absolute;
+  transition: all 2s;
+  left: 20%;
+  color: red;
+  bottom: 10px;
+  opacity: 0;
 }
