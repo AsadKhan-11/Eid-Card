@@ -1,7 +1,7 @@
 .card {
   height: 240px;
   width: 400px;
-  background-color: grey;
+  background-color: rgb(131, 131, 131);
   position: relative;
   border: 1px solid rgb(71, 71, 71);
 }
@@ -9,9 +9,13 @@
 .card-top {
   width: 0;
   height: 0;
+  border-style: solid;
+  border-top-color: rgb(94, 94, 94);
+  border-bottom-color: rgb(94, 94, 94);
   border-left: 200px solid transparent;
   border-right: 200px solid transparent;
-  border-top: 150px solid rgb(94, 94, 94);
+  border-top-width: 150px;
+  position: absolute;
 }
 
 .btn-click {
